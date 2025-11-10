@@ -1,1 +1,1 @@
-# Intenert-Exposed-VMs-Threat-Hunt-Remediation
+# Internet-Exposed-VMs-Threat-Hunt-Remediation
