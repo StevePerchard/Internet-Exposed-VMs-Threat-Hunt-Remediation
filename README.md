@@ -66,7 +66,13 @@ d. Document Findings, Remediations & Improvements
 
 Identified six VMs exposed incorrectly to the internet identified by KQL query in Microsoft Defender for Endpoint Advanced Hunting & summarise by distinct DeviceName.
 
-![KQL Query for Internet-Facing Devices (Page 2)](screenshots/page2-query.png)
+<img width="606" height="179" alt="image" src="https://github.com/user-attachments/assets/8cbaf998-9467-4fa1-8c71-373d9c196ff5" />
+
+<img width="458" height="128" alt="image" src="https://github.com/user-attachments/assets/cd773095-2596-4f54-8cd9-442cfb1af5ce" />
+<img width="507" height="37" alt="image" src="https://github.com/user-attachments/assets/b68f4d7f-584f-4915-b29d-d285e41a776b" />
+<img width="431" height="157" alt="image" src="https://github.com/user-attachments/assets/6ae081fa-422c-4f56-bdeb-e43d4e9181af" />
+
+
 
 The above query filters for internet-facing devices using the IsInternetFacing column
 
