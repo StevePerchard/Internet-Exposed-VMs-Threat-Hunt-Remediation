@@ -78,11 +78,13 @@ The above query filters for internet-facing devices using the IsInternetFacing c
 
 Confirmed no bad actors have achieved successful login access for all six vms (example vm result shown)
 
-![Successful Logins Query Results (Page 3)](screenshots/page3-successful-logins.png)
+<img width="860" height="534" alt="image" src="https://github.com/user-attachments/assets/45e62441-3422-467e-9a8c-2c9c3735ee8f" />
+
 
 Identified multi-attempt bad actors for each vm (example vm result shown)
 
-![Multi-Attempt Bad Actors Query (Page 3)](screenshots/page3-multi-attempt.png)
+<img width="748" height="695" alt="image" src="https://github.com/user-attachments/assets/7b962dcf-94b5-4fd4-9d27-f74b18fc8334" />
+
 
 The above query shows that the top IP’s (146.19.24.26, 80.94.95.84 & 103.237.86.155) attempted 188 logins on the example DeviceName primarily targeting NTLM remote interactive sessions
 
