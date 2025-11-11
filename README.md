@@ -88,7 +88,8 @@ Identified multi-attempt bad actors for each vm (example vm result shown)
 
 The above query shows that the top IP’s (146.19.24.26, 80.94.95.84 & 103.237.86.155) attempted 188 logins on the example DeviceName primarily targeting NTLM remote interactive sessions
 
-![Top IPs Failed Logons Query (Page 4)](screenshots/page4-top-ips.png)
+<img width="733" height="195" alt="image" src="https://github.com/user-attachments/assets/72ee299e-b0b9-4bdf-8ae2-787c2732da01" />
+<img width="774" height="190" alt="image" src="https://github.com/user-attachments/assets/241f5bfe-772b-4905-801f-f2eda284e132" />
 
 Further investigate log to determine additional relevant information to identify TTP’s employed
 
@@ -102,7 +103,6 @@ Further investigate log to determine additional relevant information to identify
 | T1556.002| MFA Interception          | Repeated failures post-MFA assumption       | Low             |
 | T1212   | Exploitation of Remote Services | IsLocalLogon: false in 95% of attempts   | High            |
 
-![TTP Analysis Query (Page 5)](screenshots/page5-ttp-query.png)
 
 The confirmed threats on exposed machines remediated by following steps
 
@@ -121,7 +121,6 @@ The confirmed threats on exposed machines remediated by following steps
 | test-at         | Internet-facing RDP | Hardened NSG, MFA, Lockout |
 | dora-edr        | Internet-facing RDP | Hardened NSG, MFA, Lockout |
 
-![Remediation Checklist (Page 6)](screenshots/page6-remediation.png)
 
 #### Result
 Zero successful breaches across all VMs; failed login attempts reduced from 188 (pre) to 9 (post), a 95% drop, verified via re-run KQL query
@@ -139,7 +138,6 @@ Zero successful breaches across all VMs; failed login attempts reduced from 188 
 
 ### Next Steps & Ongoing
 
-![Next Steps Diagram (Page 7)](screenshots/page7-next-steps.png)
 
 - **Conduct Regular Exposure Audits:** Schedule monthly KQL-based scans in Microsoft Defender for Endpoint to proactively identify any new internet-facing VMs in the shared services cluster, with automated alerts for deviations from baseline configurations.
 - **Enhance Monitoring and Alerting:** Implement custom detection rules in Defender for Endpoint based on the identified queries (e.g., for brute-force thresholds >10 attempts/IP/hour), integrated with SIEM for real-time notifications and automated lockouts.
@@ -151,5 +149,5 @@ Zero successful breaches across all VMs; failed login attempts reduced from 188 
 
 ---
 
-*For full PDF version, [download here](Copy%20of%20Scenario%201_%20Devices%20Accidentally%20Exposed%20to%20the%20Internet%20(6).pdf).*  
+*For full PDF version, [download here](https://docs.google.com/document/d/1ac6eJySyJVDF3KUwQyjNWj-DtUIuL3ym7ng0ztY_fF8/edit?usp=sharing)).*  
 *Report prepared by Stephen Perchard, Systems Consultant, CYZILLA LTD.*
