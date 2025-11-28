@@ -3,7 +3,7 @@
 
 **Date:** November 10, 2025
 
-**To:** Frank Pang CEO & Amy Shoesmith CIO : CYZILLA LTD.  
+**To:** Frank Pang CEO & Amy Shoesmith CIO : Lemonex LTD.  
 **Cc:** Barry Mitchells Sec Team Lead
 
 ## Executive Summary
@@ -43,7 +43,7 @@ No data loss or persistence observed, but underscores need for zero-trust segmen
 
 **Signed:**  
 Stephen Perchard  
-**Title:** Systems Consultant CYZILLA LTD  
+**Title:** Systems Consultant Lemonex LTD  
 **Date:** Nov 10 2025  
 ____________________________________________
 
@@ -150,4 +150,4 @@ Zero successful breaches across all VMs; failed login attempts reduced from 188 
 ---
 
 *For full PDF version, [download here](https://docs.google.com/document/d/1ac6eJySyJVDF3KUwQyjNWj-DtUIuL3ym7ng0ztY_fF8/edit?usp=sharing)).*  
-*Report prepared by Stephen Perchard, Systems Consultant, CYZILLA LTD.*
+*Report prepared by Stephen Perchard, Systems Consultant, Lemonex LTD.*
